@@ -1,0 +1,22 @@
+{
+    "name": "marco/doctrine",
+    "type": "project",
+    "require": {
+        "doctrine/orm": "^2.13",
+        "doctrine/dbal": "^3.4",
+        "doctrine/annotations": "^1.13",
+        "symfony/yaml": "^6.0",
+        "symfony/cache": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marco\\Doctrine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marcos antonio",
+            "email": "contato.marcos20@gmail.com"
+        }
+    ]
+}
